@@ -8,7 +8,7 @@ header {
   border-radius: 0 0 15px 15px;
 }
 
-header img {
+header .logo {
   max-width: 200px;
   animation: imgTransform 1s ease-in-out alternate infinite;
 }
@@ -67,14 +67,32 @@ nav ul li:hover::after {
 nav ul li:hover {
   transform: scale(1.1);
 }
-
+label img {
+  display: none;
+}
+.checkHamburgesa {
+  display: none;
+}
 @media (max-width: 480px) {
   nav ul {
+    opacity: 0;
+    width: 80vw;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
-
-    gap: 20px;
+    bottom: -225px;
+    gap: 28px;
+    transition: all 0.15s ease-in-out;
   }
-  nav {
-    bottom: -120px;
+  label img {
+    display: block;
+    width: 35px;
+  }
+  nav input:checked + ul {
+    opacity: 1;
+  }
+  nav ul li::after {
+    left: 70px;
+    width: 0%;
   }
 }
