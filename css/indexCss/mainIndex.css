@@ -136,7 +136,7 @@ article:hover {
   }
 
   section article h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   section article span {
@@ -152,5 +152,44 @@ article:hover {
     padding: 8px 20px;
     font-size: 0.9rem;
     margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tituloIndex {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .parrafoIndex {
+    font-size: 0.9rem;
+    padding: 0 5px;
+  }
+
+  .tituloSection {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 0 auto 30px auto;
+  }
+
+  section article h3 {
+    font-size: 0.8rem;
+    padding: 3px 10px;
+  }
+
+  section article span {
+    font-size: 0.8rem;
+    padding: 8px 10px;
+  }
+
+  article p {
+    font-size: 0.8rem;
+    margin-top: 8px;
+  }
+
+  article button {
+    padding: 6px 15px;
+    font-size: 0.8rem;
+    margin-top: 8px;
   }
 }
