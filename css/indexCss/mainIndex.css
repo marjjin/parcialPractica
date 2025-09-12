@@ -175,6 +175,7 @@ article:hover {
   section article h3 {
     font-size: 0.8rem;
     padding: 3px 10px;
+    max-width: 50%;
   }
 
   section article span {
