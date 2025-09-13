@@ -49,31 +49,29 @@ section article {
   overflow: hidden;
   transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
 }
-article h3 {
+
+article h3,
+section article span {
   position: absolute;
-  left: 0px;
   top: 0px;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: white;
   background-color: var(--primary-color);
   padding: 5px 20px;
 }
+
+article h3 {
+  left: 0;
+}
+section article span {
+  right: 0;
+}
+
 section article img {
   width: 90%;
   border-radius: 5%;
   margin-top: 25px;
-}
-
-section article span {
-  position: absolute;
-  right: 0;
-  top: 0;
-  background-color: var(--primary-color);
-  color: white;
-  padding: 10px 15px;
-
-  font-weight: bold;
 }
 
 article p {
@@ -93,6 +91,7 @@ article button {
   cursor: pointer;
   font-size: 1rem;
   transition: all 0.3s ease;
+  font-weight: bold;
 }
 
 article button:hover {
@@ -135,16 +134,13 @@ article:hover {
     margin: 0 auto 40px auto;
   }
 
-  section article h3 {
+  section article h3,
+  section article span {
     font-size: 1rem;
   }
 
-  section article span {
-    font-size: 0.9rem;
-  }
-
   article p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-top: 10px;
   }
 
@@ -180,7 +176,7 @@ article:hover {
 
   section article span {
     font-size: 0.8rem;
-    padding: 8px 10px;
+    padding: 3px 10px;
   }
 
   article p {
