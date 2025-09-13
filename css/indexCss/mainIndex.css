@@ -70,7 +70,8 @@ section article span {
 
 section article img {
   width: 90%;
-  height: 200px;
+  height: auto;
+  max-height: 200px;
   border-radius: 5%;
   margin-top: 25px;
 }
