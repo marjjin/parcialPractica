@@ -21,9 +21,11 @@
   max-height: 400px;
   font-style: italic;
   text-align: center;
-  padding: 15px 0;
+  padding: 15px 10px;
   font-size: 0.9rem;
-  overflow: scroll;
+  overflow-y: scroll;
+  scrollbar-color: var(--secondary-color) transparent;
+  scrollbar-width: thin;
 }
 
 .servicios div {
