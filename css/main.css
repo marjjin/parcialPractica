@@ -4,6 +4,7 @@
 @import url("indexCss/mainIndex.css");
 @import url("indexCss/serviciosIndex.css");
 @import url("ServiciosCss/servicios.css");
+@import url("/css/equipoCss/equipo.css");
 
 * {
   margin: 0;
@@ -30,6 +31,9 @@ body {
 }
 
 section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-bottom: 40px;
 }
 

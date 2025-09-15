@@ -25,11 +25,7 @@
   box-shadow: var(--shadow-nav);
   margin: 0 auto 60px auto;
 }
-section {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
+
 
 section article {
   position: relative;
