@@ -46,6 +46,22 @@
   font-style: italic;
 }
 
+.equipo-section {
+  background-color: rgba(172, 172, 170, 0.144);
+}
+.equipo-h2 {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 30px;
+  font-style: italic;
+}
+.equipo-img {
+  width: 250px;
+  height: 350px;
+  object-fit: contain;
+  object-position: center;
+}
 @media (max-width: 728px) {
   .equipo {
     flex: 0 0 200px;

@@ -5,6 +5,7 @@
 @import url("indexCss/serviciosIndex.css");
 @import url("ServiciosCss/servicios.css");
 @import url("/css/equipoCss/equipo.css");
+@import url("/css/contactoCss/contacto.css");
 
 * {
   margin: 0;
@@ -20,7 +21,7 @@
   width: 90%;
   max-width: 1200px;
   margin: 120px auto;
-  background-color: var(--bgc-container);
+  background: var(--bgc-body);
   box-shadow: 0 4px 50px rgba(0, 0, 0, 0.056);
   border-radius: 50px;
   text-align: center;

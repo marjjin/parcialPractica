@@ -31,7 +31,21 @@
         </ul>
       </nav>
     </header>
-    <main class="container"><h1>Contacto</h1></main>
+    <main class="container">
+      <h1>Contacto</h1>
+      <form>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required placeholder="Martin" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Carmona" />
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" required placeholder="Ingresa tu mensaje"></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
     <footer>
       <div class="footer-container">
         <!-- Columna 1 -->
