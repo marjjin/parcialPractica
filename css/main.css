@@ -6,6 +6,8 @@
 @import url("ServiciosCss/servicios.css");
 @import url("/css/equipoCss/equipo.css");
 @import url("/css/contactoCss/contacto.css");
+@import url("/css/detallesCss/detalles.css");
+@import url("/css/detallesCss/card.css");
 
 * {
   margin: 0;

@@ -26,6 +26,7 @@ nav {
   display: flex;
   justify-content: center;
   position: relative;
+  z-index: 1000;
 }
 
 nav ul {

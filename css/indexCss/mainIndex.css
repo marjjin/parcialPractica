@@ -26,7 +26,6 @@
   margin: 0 auto 60px auto;
 }
 
-
 section article {
   position: relative;
   display: flex;
@@ -92,6 +91,9 @@ article button {
   font-weight: bold;
 }
 
+article button a {
+  color: white;
+}
 article button:hover {
   letter-spacing: 1px;
   transform: scale(1.05);

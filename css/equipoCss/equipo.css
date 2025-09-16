@@ -9,8 +9,9 @@
   margin: 50px auto 15px auto;
   max-width: 1200px;
   scroll-behavior: smooth;
-  background-color: rgba(122, 122, 121, 0.144);
+  background-color: rgba(255, 255, 255, 0.144);
   border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.233);
 }
 
 .equipo {
@@ -48,6 +49,9 @@
 
 .equipo-section {
   background-color: rgba(172, 172, 170, 0.144);
+}
+.equipo-section p {
+  overflow: hidden;
 }
 .equipo-h2 {
   color: var(--primary-color);
@@ -98,5 +102,8 @@
 
   .equipo p {
     font-size: 0.6rem;
+  }
+  .equipo-section p {
+    overflow: scroll;
   }
 }

@@ -6,7 +6,7 @@ form {
   max-width: 450px;
   width: 90%;
   align-items: center;
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
   padding: 20px;
   background: var(--bgc-container);
 }
@@ -14,10 +14,12 @@ form {
 input,
 textarea {
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--secondary-color);
   border-radius: 5px;
   font-size: 1rem;
   width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.247);
+  transition: all ease-in-out 0.3s;
 }
 
 textarea {
@@ -37,5 +39,38 @@ button {
   border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: var(--bottons-color);
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 5px var(--primary-color);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+label {
+  align-self: flex-start;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+input:hover,
+textarea:hover {
+  border-color: var(--bottons-color);
+  box-shadow: 0 0 5px var(--bottons-color);
+  transform: scale(1.02);
 }

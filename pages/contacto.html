@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/main.css" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
     <title>Contacto</title>
   </head>
   <body>
@@ -32,16 +33,41 @@
       </nav>
     </header>
     <main class="container">
-      <h1>Contacto</h1>
+      <h1 class="tituloSection">Contactanos</h1>
       <form>
         <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" required placeholder="Martin" />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          placeholder="Martin"
+        />
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required placeholder="Carmona" />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="Carmona"
+        />
 
+        <label for="subject">Asunto:</label>
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          required
+          placeholder="Consulta"
+        />
         <label for="message">Mensaje:</label>
-        <textarea id="message" name="message" required placeholder="Ingresa tu mensaje"></textarea>
+        <textarea
+          id="message"
+          name="message"
+          required
+          placeholder="Ingresa tu mensaje"
+        ></textarea>
 
         <button type="submit">Enviar</button>
       </form>
