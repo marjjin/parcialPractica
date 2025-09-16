@@ -8,7 +8,7 @@
 @import url("/css/contactoCss/contacto.css");
 @import url("/css/detallesCss/detalles.css");
 @import url("/css/detallesCss/card.css");
-
+@import url("/css/iconosFlotantes.css");
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +19,7 @@
 }
 
 .container {
+  position: relative;
   padding: 20px;
   width: 90%;
   max-width: 1200px;
